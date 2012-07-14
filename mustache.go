@@ -1,8 +1,8 @@
 package mustache
 
 import (
+    "github.com/QLeelulu/goku"
     "github.com/hoisie/mustache"
-    "github.com/qleelulu/goku"
     "io"
 )
 

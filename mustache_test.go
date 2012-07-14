@@ -2,7 +2,7 @@ package mustache
 
 import (
     "bytes"
-    "github.com/qleelulu/goku"
+    "github.com/QLeelulu/goku"
     "os"
     "path"
     "testing"
