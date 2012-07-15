@@ -31,7 +31,7 @@ func (te *MustacheTemplateEngine) Render(filepath string, layoutPath string, vie
     tmpl = te.getTemplate(filepath)
 
     var r string
-    if layoutPath != "" {
+    if te.SupportLayout() && layoutPath != "" {
         layout := te.getTemplate(layoutPath)
 
         r = tmpl.RenderInLayout(layout, viewData)
