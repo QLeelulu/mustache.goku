@@ -11,7 +11,7 @@ To install goku, simply run `go get github.com/QLeelulu/mustache.goku`. To use i
 
 use in goku like this
 
-    te := NewMustacheTemplateEngine()
+    te := mustache.NewMustacheTemplateEngine()
     te.UseCache = true
 
     sc := &goku.ServerConfig{
